@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<style>
+    body {
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #draw {
+        display: grid;
+    }
+</style>
+
+<body>
+    <div id="draw"></div>
+    <div style="height: 100%;border-left: 1px solid black;">
+        <div>tecle 'w' pra habilitar o preenchimento so passando por cima</div>
+        <div>tecle 'r' pra refletir</div>
+        <button onclick="activeRefletion()">refletir</button>
+        <button onclick="!reflexive">Gerar arquivo</button>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
