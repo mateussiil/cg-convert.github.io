@@ -84,7 +84,7 @@ function calculateCoordinate(id) {
 function convertToHex() {
   let decimal = 0;
   let text = "";
-  let copyTable = angular.copy(table);
+  let copyTable = angular.copy(table.reverse());
   for (let linha = 0; linha < table.length; linha++) {
     for (let group = 0; group < table[linha].length; group++) {
       hexa = "0x";
